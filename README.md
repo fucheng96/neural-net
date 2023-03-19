@@ -8,6 +8,16 @@ The main objective of this code is to understand the underlying components of ne
     - Relu
   - Initialization: Normalized Xavier Weight Initialization
   - Loss function: MSE
+  - Hidden Layer: Only 1
+
+## Main Functions
+
+The class object MultiLayerPerceptron has the following key functions:
+  - feed_forward_pass: Generate predicted outcomes using features dataset
+  - back_propagation: Perform back propagation to optimize the neural networks' weights
+  - update_weights: Update the neural networks' weights based on back propagation
+  - train: Perform model training using the 3 functions listed above
+  - fit: Perform model fitting by training over selected number of iterations
 
 ## Installation
 
